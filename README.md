@@ -1,16 +1,53 @@
-# React + Vite
+# Portfolio professionnel - David
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio professionnel réalisé dans le cadre de ma formation Développeur Web chez OpenClassrooms.
 
-Currently, two official plugins are available:
+Ce portfolio présente mon parcours, mes compétences en développement web ainsi que plusieurs projets réalisés durant ma formation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies utilisées
 
-## React Compiler
+- React
+- Vite
+- JavaScript
+- SCSS
+- HTML
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Projets présentés
 
-## Expanding the ESLint configuration
+### Kasa
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Développement d'une interface web avec React à partir de maquettes et récupération dynamique des données.
+
+### Mon Vieux Grimoire
+
+Développement d'une API REST avec Node.js, Express et MongoDB, avec authentification et gestion des autorisations.
+
+## Installation
+
+Cloner le projet puis installer les dépendances :
+
+```bash
+npm install
+```
+
+Lancer le projet en développement :
+
+```bash
+npm run dev
+```
+
+Créer la version de production :
+
+```bash
+npm run build
+```
+
+Prévisualiser la version de production :
+
+```bash
+npm run preview
+```
+
+## Auteur
+
+David - Développeur Web

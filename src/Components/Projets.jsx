@@ -1,9 +1,20 @@
+import kasa1 from "../assets/Kasa1.png";
+import kasa2 from "../assets/kasa2.png"
+import monVieuxGrimoire from "../assets/MonVieuxGrimoire.png";
+import MVG from "../assets/MVGExemple.png";
+
+
+
 function Projets() {
   return (
     <section id="projets">
       <h2>Projets</h2>
       <article>
         <h3>Kasa</h3>
+        <div className="project-images">
+  <img src={kasa1} alt="Page d'accueil de l'application Kasa" />
+  <img src={kasa2} alt="Page de logement de l'application Kasa" />
+</div>
         <h4>Contexte</h4>
         <p>
           Développement de l'interface web de Kasa, une plateforme de location
@@ -22,7 +33,7 @@ function Projets() {
             <li>JavaScript</li>
             <li>SCSS</li>
             <li>React Router</li>
-            <li>Api</li>
+            <li>API</li>
         </ul>
         <h4>Compétences développées</h4>
         <ul>
@@ -40,6 +51,16 @@ function Projets() {
       </article>
       <article>
         <h3>Mon Vieux Grimoire</h3>
+        <div className="project-images">
+  <img
+    src={monVieuxGrimoire}
+    alt="Page d'accueil de l'application Mon Vieux Grimoire"
+  />
+  <img
+    src={MVG}
+    alt="Exemple de livre présenté dans l'application Mon Vieux Grimoire"
+  />
+</div>
         <h4>Contexte</h4>
         <p>
              Développement du back-end de Mon Vieux Grimoire, une plateforme de
