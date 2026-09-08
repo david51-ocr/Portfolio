@@ -7,8 +7,8 @@ function Parcours() {
         <li>
           <h3>Éducateur spécialisé</h3>
           <p>
-            Mon expérience dans le secteur social m'a permis de développer
-            des compétences d'écoute, d'analyse des besoins et d'adaptation.
+            Mon expérience dans le secteur social m'a permis de développer des
+            compétences d'écoute, d'analyse des besoins et d'adaptation.
           </p>
         </li>
 
@@ -24,8 +24,8 @@ function Parcours() {
         <li>
           <h3>Projet professionnel</h3>
           <p>
-            Développer une activité de développeur web freelance en parallèle
-            de mon métier d'éducateur spécialisé, tout en approfondissant mes
+            Développer une activité de développeur web freelance en parallèle de
+            mon métier d'éducateur spécialisé, tout en approfondissant mes
             compétences en React et en développement back-end.
           </p>
         </li>

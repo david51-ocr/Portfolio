@@ -1,7 +1,9 @@
-function Footer (){
-    return (
-        <p>© 2026 David - Tous droits réservés</p>
-    );
+function Footer() {
+  return (
+    <footer>
+      <p>© 2026 David - Tous droits réservés</p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
