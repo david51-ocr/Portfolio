@@ -1,7 +1,7 @@
 function Accueil() {
   return (
-    <section id="accueil">
-      <h1>David MOTTOLA - DEVELOPPEUR WEB</h1>
+    <section id="accueil" aria-labelledby="titre-accueil">
+      <h1 id="titre-accueil">David MOTTOLA - DEVELOPPEUR WEB</h1>
       <p>
         Je transforme vos idées en expériences web modernes et accessibles.
         Développeur web spécialisé Front-End, je conçois des interfaces

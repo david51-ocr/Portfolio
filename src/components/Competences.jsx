@@ -1,7 +1,7 @@
 function Competences() {
   return (
-    <section id="competences">
-      <h2>Compétences</h2>
+    <section id="competences" aria-labelledby="titre-competences">
+      <h2 id="titre-competences">Compétences</h2>
       <h3>Front-end</h3>
       <ul>
         <li>HTML</li>

@@ -1,7 +1,7 @@
 function Parcours() {
   return (
-    <section id="parcours">
-      <h2>Parcours</h2>
+    <section id="parcours" aria-labelledby="titre-parcours">
+      <h2 id="titre-parcours">Parcours</h2>
 
       <ul>
         <li>

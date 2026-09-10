@@ -30,8 +30,8 @@ function Contact() {
   };
 
   return (
-    <section id="contact">
-      <h2>Contact</h2>
+    <section id="contact" aria-labelledby="titre-contact">
+      <h2 id="titre-contact">Contact</h2>
 
       <p>
         Vous souhaitez échanger sur un projet ? N'hésitez pas à me contacter.
@@ -49,7 +49,7 @@ function Contact() {
 
         <button type="submit">Envoyer</button>
 
-        {status && <p>{status}</p>}
+        {status && <p role="status" aria-live="polite">{status}</p>}
       </form>
 
       <p>Ou contactez-moi directement :</p>

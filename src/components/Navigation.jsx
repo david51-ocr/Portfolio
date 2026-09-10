@@ -1,6 +1,6 @@
 function Navigation() {
   return (
-    <nav>
+    <nav aria-label="Navigation principale">
       <a href="#accueil">Accueil</a>
       <a href="#a-propos">A propos</a>
       <a href="#competences">Compétences</a>

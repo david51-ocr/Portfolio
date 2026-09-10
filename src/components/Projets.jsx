@@ -5,8 +5,8 @@ import MVG from "../assets/MVGExemple.webp";
 
 function Projets() {
   return (
-    <section id="projets">
-      <h2>Projets</h2>
+    <section id="projets" aria-labelledby="titre-projet">
+      <h2 id="titre-projet">Projets</h2>
       <article>
         <h3>Kasa</h3>
         <div className="project-images">
