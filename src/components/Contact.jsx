@@ -53,7 +53,7 @@ function Contact() {
       </form>
 
       <p>Ou contactez-moi directement :</p>
-      <a href="mailto:davidmottola@gmail.com">Mon E-Mail</a>
+      <a href="mailto:davidaubin02@gmail.com">Mon E-Mail</a>
 
       <a
         href="https://github.com/david51-ocr"
